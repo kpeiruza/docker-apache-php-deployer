@@ -3,9 +3,9 @@
 DOCROOT="/var/www/html"
 APACHEUSER="www-data"
 
-if [ -z "$SRCURI" ]
+if [ -z "$URL" ]
 then
-	echo "Bad usage, please provide the SRCURI environment variable"
+	echo "Bad usage, please provide the 'URL' environment variable"
 	exit 64
 fi
 
@@ -13,7 +13,7 @@ cd $DOCROOT
 rm -fr *
 
 #	Download file
-wget -q --no-check-certificate $SRCURI
+wget -q --no-check-certificate "$URL"
 filename=$(ls)
 
 #	Uncompress file
