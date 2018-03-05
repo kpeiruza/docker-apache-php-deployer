@@ -1,0 +1,181 @@
+composer - dependency manager for PHP
+pear-channels - PEAR channels for various projects
+php-amqp - AMQP extension for PHP
+php-amqplib - pure PHP implementation of the AMQP protocol
+php-auth-sasl - Abstraction of various SASL mechanism responses
+php-date - Generic date/time handling class for PEAR
+php-db - Database Abstraction Layer
+libapache2-mod-php - server-side, HTML-embedded scripting language (Apache 2 module) (default)
+php-bcmath - Bcmath module for PHP [default]
+php-bz2 - bzip2 module for PHP [default]
+php-cli - command-line interpreter for the PHP scripting language (default)
+php-common - Common files for PHP packages
+php-curl - CURL module for PHP [default]
+php-enchant - Enchant module for PHP [default]
+php-gd - GD module for PHP [default]
+php-gmp - GMP module for PHP [default]
+php-imap - IMAP module for PHP [default]
+php-interbase - Interbase module for PHP [default]
+php-intl - Internationalisation module for PHP [default]
+php-json - JSON module for PHP [default]
+php-ldap - LDAP module for PHP [default]
+php-mbstring - MBSTRING module for PHP [default]
+php-mcrypt - libmcrypt module for PHP [default]
+php-mysql - MySQL module for PHP [default]
+php-odbc - ODBC module for PHP [default]
+php-pgsql - PostgreSQL module for PHP [default]
+php-pspell - pspell module for PHP [default]
+php-readline - readline module for PHP [default]
+php-recode - recode module for PHP [default]
+php-snmp - SNMP module for PHP [default]
+php-soap - SOAP module for PHP [default]
+php-sqlite3 - SQLite3 module for PHP [default]
+php-sybase - Sybase module for PHP [default]
+php-tidy - tidy module for PHP [default]
+php-xml - DOM, SimpleXML, WDDX, XML, and XSL module for PHP [default]
+php-xmlrpc - XMLRPC-EPI module for PHP [default]
+php-zip - Zip module for PHP [default]
+php-dompdf - HTML to PDF converter
+php-email-validator - A library for validating emails
+php-fdomdocument - extension to PHP's standard DOM
+php-fpdf - PHP class to generate PDF files
+php-geoip - GeoIP module for PHP
+php-getid3 - scripts to extract information from multimedia files
+php-gettext - transitional dummy package for php-php-gettext
+php-php-gettext - read gettext MO files directly, without requiring anything other than PHP
+php-gmagick - Provides a wrapper to the GraphicsMagick library
+php-gnupg - PHP wrapper around the gpgme library
+php-http-request - Provides an easy way to perform HTTP requests
+php-http-request2 - Provides an easy way to perform HTTP requests
+php-http-webdav-server - WebDAV Server Baseclass
+php-image-text - Image_Text - Advanced text maipulations in images
+php-imagick - Provides a wrapper to the ImageMagick library
+php-invoker - Utility class for invoking callables with a timeout
+php-json-schema - implementation of JSON schema
+php-kdyby-events - Events for Nette Framework
+php-letodms-core - Document management system
+php-libsodium - PHP wrapper for the Sodium cryptographic library
+php-log - Logging Framework
+php-mail - Class that provides multiple interfaces for sending emails
+php-mail-mime - PHP PEAR module for creating MIME messages
+php-mailparse - Email message manipulation for PHP
+php-markdown - PHP library for rendering Markdown data
+php-mdb2 - database abstraction layer
+php-mdb2-driver-mysql - mysql MDB2 driver
+php-mdb2-driver-pgsql - pgsql MDB2 driver
+php-memcache - memcache extension module for PHP
+php-memcached - memcached extension module for PHP, uses libmemcached
+php-mf2 - Microformats2 is the simplest way to markup structured information in HTML
+php-mockery - mock object framework for PHPUnit and other testing framework
+php-mockery-doc - mock object framework for PHPUnit - documentation
+php-mongodb - MongoDB driver for PHP
+php-monolog - send logs to various destination and web services
+php-msgpack - PHP extension for interfacing with MessagePack
+php-net-dime - The Net_DIME package implements DIME encoding and decoding
+php-net-dns2 - PHP5 Resolver library used to communicate with a DNS server
+php-net-ftp - Net_FTP provides an OO interface to the PHP FTP functions plus some additions
+php-net-idna2 - PHP Pear module for handling international domain names
+php-net-imap - Provides an implementation of the IMAP protocol
+php-net-ipv6 - Check and validate IPv6 addresses
+php-net-ldap2 - Object oriented interface for searching and manipulating LDAP-entries
+php-net-ldap3 - Object oriented interface for searching and manipulating LDAP entries
+php-net-nntp - NNTP implementation
+php-net-publicsuffix - PHP module for detecting registered domains and public suffixes
+php-net-sieve - Handles talking to a sieve server
+php-net-smtp - PHP PEAR module implementing SMTP protocol
+php-net-socket - Network Socket Interface
+php-net-url - Easy parsing of Urls
+php-net-url2 - Class for parsing and handling URL
+php-net-whois - PHP PEAR module for querying whois services
+php-nette - Nette Framework
+php-nrk-predis - Flexible and feature-complete PHP client library for the Redis key-value store
+php-numbers-words - PEAR module providing methods for spelling numerals in words
+php-oauth - OAuth 1.0 consumer and provider extension
+php-parser - convert PHP code into abstract syntax tree
+php-patchwork-utf8 - UTF-8 strings handling for PHP
+php-pclzip - ZIP archive manager class for PHP
+php-pear - PEAR Base System
+php-http - PECL HTTP module for PHP Extended HTTP Support
+php-pecl-http - pecl_http module for PHP Extended HTTP Support [dummy]
+php-pecl-http-dev - pecl_http module for PHP Extended HTTP Support [dummy]
+php-phpdocumentor-reflection - Reflection library to do Static Analysis for PHP Projects
+php-phpdocumentor-reflection-common - Common reflection classes - phpDocumentor component
+php-phpdocumentor-reflection-docblock - DocBlock parser - phpDocumentor component
+php-phpdocumentor-type-resolver - TypeResolver and FqsenResolver - phpDocumentor component
+php-phpseclib - implementations of an arbitrary-precision integer arithmetic library
+php-phpspec-prophecy - object mocking framework - phpspec component
+php-pimple - simple dependency injection container -- class
+php-pinba - Pinba module for PHP
+php-propro - propro module for PHP
+php-propro-dev - propro module for PHP development headers [dummy]
+php-proxy-manager - library providing utilities to operate with Object Proxies
+php-psr-log - common interface for logging libraries
+php-radius - radius client library for PHP
+php-random-compat - PHP 5.x polyfill for random_bytes() and random_int() from PHP 7
+php-raphf - raphf module for PHP
+php-raphf-dev - raphf module for PHP development headers [dummy]
+php-redis - PHP extension for interfacing with Redis
+php-rrd - PHP bindings to rrd tool system
+php-sabre-dav-2.1 - WebDAV Framework for PHP
+php-sabre-event - lightweight library for event-based development
+php-sabre-http-3 - library to ease the work with HTTP protocol
+php-sabre-uri - several functions for working with URIs
+php-sabre-vobject - library to parse and manipulate iCalendar and vCard objects
+php-sabre-vobject-3 - library to parse and manipulate iCalendar and vCard objects
+php-sabre-xml - specialized XML reader and writer
+php-sabre-dav - WebDAV Framework for PHP
+php-services-weather - This class acts as an interface to various online weather-services
+php-smbclient - PHP wrapper for libsmbclient
+php-solr - PHP extension for communicating with Apache Solr server
+php-sql-formatter - a PHP SQL highlighting library
+php-ssh2 - Bindings for the libssh2 library
+php-stomp - Streaming Text Oriented Messaging Protocol (STOMP) client module for PHP
+php-text-captcha - Generation of CAPTCHAs
+php-text-figlet - Engine for use FIGlet fonts to rendering text
+php-text-languagedetect - Language detection class
+php-text-password - Creating passwords with PHP
+php-text-template - Simple template engine
+php-text-wiki - transform Wiki and BBCode markup into XHTML, LaTeX or plain text markup
+php-timer - Utility class for timing
+php-token-stream - Wrapper around PHP's tokenizer extension
+php-tokenreflection - PHP reflection replacement
+php-uploadprogress - file upload progress tracking extension for PHP
+php-uuid - PHP UUID extension
+php-validate - validation class
+php-xml-htmlsax3 - SAX parser for HTML and other badly formed XML documents
+php-xml-rpc2 - PHP XML-RPC client/server library
+php-xml-svg - XML_SVG API
+php-yaml - YAML-1.1 parser and emitter for PHP
+php-zmq - ZeroMQ messaging bindings for PHP
+libapache2-mod-php7.0 - server-side, HTML-embedded scripting language (Apache 2 module)
+libphp7.0-embed - HTML-embedded scripting language (Embedded SAPI library)
+php7.0 - server-side, HTML-embedded scripting language (metapackage)
+php7.0-bcmath - Bcmath module for PHP
+php7.0-bz2 - bzip2 module for PHP
+php7.0-cgi - server-side, HTML-embedded scripting language (CGI binary)
+php7.0-cli - command-line interpreter for the PHP scripting language
+php7.0-common - documentation, examples and common module for PHP
+php7.0-curl - CURL module for PHP
+php7.0-dba - DBA module for PHP
+php7.0-gd - GD module for PHP
+php7.0-gmp - GMP module for PHP
+php7.0-imap - IMAP module for PHP
+php7.0-intl - Internationalisation module for PHP
+php7.0-json - JSON module for PHP
+php7.0-ldap - LDAP module for PHP
+php7.0-mbstring - MBSTRING module for PHP
+php7.0-mcrypt - libmcrypt module for PHP
+php7.0-mysql - MySQL module for PHP
+php7.0-odbc - ODBC module for PHP
+php7.0-pgsql - PostgreSQL module for PHP
+php7.0-pspell - pspell module for PHP
+php7.0-readline - readline module for PHP
+php7.0-recode - recode module for PHP
+php7.0-snmp - SNMP module for PHP
+php7.0-soap - SOAP module for PHP
+php7.0-sqlite3 - SQLite3 module for PHP
+php7.0-tidy - tidy module for PHP
+php7.0-xml - DOM, SimpleXML, WDDX, XML, and XSL module for PHP
+php7.0-xmlrpc - XMLRPC-EPI module for PHP
+php7.0-xsl - XSL module for PHP (dummy)
+php7.0-zip - Zip module for PHP

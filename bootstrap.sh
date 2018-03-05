@@ -1,7 +1,14 @@
 #!/bin/bash
+#	List of supported variables:
+#	URL to download, git, tar or zip files.
+#	SERVERNAME to configure to apache (for logging purposes)
+#	CAT /path/to/create=multiline\ncontent\t\n
+#	PREEXEC with raw commands to pass to bash
 
 DOCROOT="/var/www/html"
 APACHEUSER="www-data"
+
+. /functions.sh
 
 if [ -z "$URL" ]
 then
@@ -12,19 +19,13 @@ fi
 cd $DOCROOT
 rm -fr *
 
-#	Download file
-wget -q --no-check-certificate "$URL"
-filename=$(ls)
-
-#	Uncompress file
-if [ $(file $filename | grep -c "Zip archive data") -eq 1 ]
+if [ "$(echo $URL| grep -c '^git=')" -eq 1 ]
 then
-	unzip $filename
+	
+	gitdeploy "$(echo $URL| sed 's/^git.//')"
 else
-	tar xf $filename
+	unpack "$URL"
 fi
-
-rm $filename
 
 #	Move subfolders if necessary
 if [ $(ls | wc -l) -eq 1 ]
@@ -34,5 +35,12 @@ then
 	rmdir $subfolder
 fi
 chown -R $APACHEUSER: .
+#	Start Webserver
+if [ -z "$SERVERNAME" ]
+then
+	SERVERNAME="$(hostname --fqdn)"
+fi
 
+echo "ServerName $SERVERNAME" > /etc/apache2/conf-enabled/servername.conf
+echo "$PREEXEC" | bash
 /usr/sbin/apachectl -D FOREGROUND
