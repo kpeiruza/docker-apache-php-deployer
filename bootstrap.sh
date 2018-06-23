@@ -43,4 +43,6 @@ fi
 
 echo "ServerName $SERVERNAME" > /etc/apache2/conf-enabled/servername.conf
 echo "$PREEXEC" | bash
-/usr/sbin/apachectl -D FOREGROUND
+echo "Removing innecessary binaries from runtime environment (bash, cp, rm ...)"
+#rm -rf /bin /usr/bin /sbin /usr/sbin
+/usr/sbin/apache2 -D FOREGROUND
